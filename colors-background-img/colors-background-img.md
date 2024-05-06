@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -37,3 +38,4 @@
     <img src="" alt="Example Image" class="image-sizing-example" />
   </body>
 </html>
+```
