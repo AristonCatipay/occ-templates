@@ -31,7 +31,7 @@
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
       }
     </style>
-    <link rel="stylesheet" href="/grid.css" />
+    <link rel="stylesheet" href="./grid.css" />
   </head>
   <body>
     <div class="gridContainer">

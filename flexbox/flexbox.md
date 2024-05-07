@@ -38,7 +38,7 @@
         overflow: hidden;
       }
     </style>
-    <link rel="stylesheet" href="/flexbox.css" />
+    <link rel="stylesheet" href="./flexbox.css" />
   </head>
   <body>
     <div class="container flexContainer">
