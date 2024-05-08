@@ -47,6 +47,47 @@ form button:hover {
   color: white;
 }
 
+/* Custom select dropdown */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+select {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 12rem;
+}
+
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background: #0661ca;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.filter-todo {
+  padding: 1rem;
+}
+
 /* todo container */
 .todo-container {
   display: flex;
@@ -68,10 +109,6 @@ form button:hover {
   justify-content: space-between;
   align-items: center;
   transition: all 0.5s ease;
-}
-
-.filter-todo {
-  padding: 1rem;
 }
 
 .todo li {
@@ -110,47 +147,5 @@ form button:hover {
 .fall {
   transform: translateY(8rem) rotateZ(20deg);
   opacity: 0;
-}
-
-.completed {
-  text-decoration: line-through;
-  opacity: 0.5;
-}
-
-/* CUSTOM SELECTOR */
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  outline: 0;
-  box-shadow: none;
-  border: 0 !important;
-  background-image: none;
-}
-
-.select {
-  margin: 1rem;
-  position: relative;
-  overflow: hidden;
-}
-
-select {
-  color: #000000;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
-  width: 12rem;
-}
-
-/* Arrow */
-.select::after {
-  content: "\25BC";
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 1rem;
-  background: #0661ca;
-  cursor: pointer;
-  pointer-events: none;
 }
 ```
